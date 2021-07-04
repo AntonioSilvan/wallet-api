@@ -15,13 +15,4 @@ export class DefaultController{
             message: "Default controller on"
         });
     }
-
-    @route('index')
-    @GET()
-    public start( req:Request, res:Response){
-        res.send({
-            status: true,
-            message: "Start the application"
-        })
-    }
 }
